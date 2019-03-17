@@ -37,9 +37,9 @@ Here we generate all the categories.
 <div class="posts">
 <p>
 {% for ct in cats %}
-<a href="#{{ ct | slugify }}" class="codinfox-category-mark" style="color:#999;text-decoration: none;"> {{ ct }} </a> &nbsp;&nbsp;
+	<a class="no-underline" href="#{{ ct }}"><code class="highligher-rouge"><nobr>{{ ct }}</nobr></code>&nbsp;</a>
 {% endfor %}
-<a href="#no-category" class="codinfox-category-mark" style="color:#999;text-decoration: none;"> No Category </a> &nbsp;&nbsp;
+<a class="no-underline" href="#no-category"><code class="highligher-rouge"><nobr>No Category</nobr></code>&nbsp;</a>
 </p>
 
 {% for ct in cats %}
