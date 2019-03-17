@@ -1,4 +1,5 @@
 name: Alpaca Beam
+description: My personal blog of tech and stuff 
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-cayman
