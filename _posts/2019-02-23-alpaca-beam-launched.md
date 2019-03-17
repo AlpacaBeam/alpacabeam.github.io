@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Alpaca Beam Launches Site"
+title: "Alpaca Beam"
+header: "Alpaca Beam Launches Site"
 date: 2019-02-23
 category: Misc
 tags: Jekyll Web
