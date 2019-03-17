@@ -3,8 +3,8 @@ layout: post
 title: "Alpaca Beam"
 header: "Logistic Regression with Titanic data using PySpark"
 date: 2019-03-17
-category: MachineLearning
-tags: Python Spark
+category: machine-learning
+tags: python spark
 ---
 
 This is a code along of the famous titanic dataset, its always nice to start off with this dataset because it is an example you will find across pretty much every data analysis language.

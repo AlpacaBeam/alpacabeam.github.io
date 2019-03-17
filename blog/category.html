@@ -39,7 +39,7 @@ Here we generate all the categories.
 {% for ct in cats %}
 	<a class="no-underline" href="#{{ ct }}"><code class="highligher-rouge"><nobr>{{ ct }}</nobr></code>&nbsp;</a>
 {% endfor %}
-<a class="no-underline" href="#no-category"><code class="highligher-rouge"><nobr>No Category</nobr></code>&nbsp;</a>
+<a class="no-underline" href="#no-category"><code class="highligher-rouge"><nobr>no-category</nobr></code>&nbsp;</a>
 </p>
 
 {% for ct in cats %}
@@ -60,7 +60,7 @@ Here we generate all the categories.
 </ul>
 {% endfor %}
 
-<h2 id="no-category">No Category</h2>
+<h2 id="no-category">no-category</h2>
 <ul class="codinfox-category-list">
   {% for post in site.posts %}
   {% unless post.category %}
