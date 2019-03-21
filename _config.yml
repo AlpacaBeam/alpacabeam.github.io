@@ -5,3 +5,6 @@ permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+
+exclude:
+  - vendor
