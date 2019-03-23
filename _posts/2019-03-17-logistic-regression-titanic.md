@@ -8,7 +8,7 @@ tags: python spark
 ---
 
 This is a code along of the famous titanic dataset, its always nice to start off with this dataset because it is an example you will find across pretty much every data analysis language.
-We will use the titanic dataset to determine what type of person is likely to survive the Titanic crash.
+We will use the [titanic](https://www.kaggle.com/c/titanic) dataset to determine what type of person is likely to survive the Titanic crash.
 
 ## Set spark context and import data to spark RDD
 
